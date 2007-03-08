@@ -1,0 +1,2 @@
+module GammasHelper
+end

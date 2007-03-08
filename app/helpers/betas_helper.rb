@@ -1,0 +1,2 @@
+module BetasHelper
+end
