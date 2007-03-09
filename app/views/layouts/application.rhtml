@@ -9,8 +9,12 @@
   <%= active_scaffold_includes %>
 </head>
 <body>
-
+Scenarios: <%= link_to "user management"%> - <%= link_to "testing all options"%><br />
+Testing All Options: <%= link_to "alphas", :controller => :alphas %> - <%= link_to "betas", :controller => :betas %> - <%= link_to "deltas", :controller => :deltas %> - <%= link_to "gammas", :controller => :gammas %>
+<table><tr><td>
 <%= yield %>
-
+</td><td>
+<%= render_partial "/demo/source" %>
+</td></tr></table>
 </body>
 </html>
