@@ -4,17 +4,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <title>ActiveScaffold :: Demo</title>
-  <%#= stylesheet_link_tag 'basic', :media => 'all' %>
   <%= javascript_include_tag :defaults %>
   <%= active_scaffold_includes %>
+	<%= stylesheet_link_tag "main", :media => 'all' %>
 </head>
 <body>
-Scenarios: <%= link_to "user management"%> - <%= link_to "testing all options"%><br />
-Testing All Options: <%= link_to "alphas", :controller => :alphas %> - <%= link_to "betas", :controller => :betas %> - <%= link_to "deltas", :controller => :deltas %> - <%= link_to "gammas", :controller => :gammas %>
+Scenarios: <%= link_to "user management", :controller => :users %> - <%= link_to "testing all options", :controller => :alphas%><br />
+<%= menu %>
+<div id="purge-data-wrapper">
+	<table id="purge-data" cellpadding="0" cellspacing="0">
+	  <tr>
+	    <td>
+	      Since this is a demo feel free to wipe out the data.
+	    </td>
+	    <td> 
+				<%= start_form_tag :action => :delete_all %>
+	      <input name="commit" type="submit" value="Purge Data" />
+	      </form>
+	    </td>
+	  </tr>
+	</table>
+</div>
 <table><tr><td>
 <%= yield %>
 </td><td>
 <%= render_partial "/demo/source" %>
 </td></tr></table>
+<script type="text/javascript">
+Rico.Corner.round('purge-data-wrapper');
+</script>
 </body>
 </html>

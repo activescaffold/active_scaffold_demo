@@ -1,5 +1,10 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
+  
+  def menu
+    render_partial "/layouts/menu_test"
+  end
+  
   def show_code(path, filename, comment = "")
     file = File.open(Dir.pwd + "/../app/#{path}/#{filename}")
 <<PRE_BLOCK

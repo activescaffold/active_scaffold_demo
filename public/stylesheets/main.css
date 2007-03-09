@@ -1,0 +1,19 @@
+#purge-data-wrapper {
+background: #ddd;
+width: 300px;
+margin: 10px 10px 5px 30px;
+}
+
+#purge-data td {
+padding: 0 6px;
+font-size: 11px;
+font-family: Verdana;
+line-height: 11px;
+}
+
+#purge-data td input {
+padding: 1px;
+font-weight: bold;
+font-size: 14px;
+font-family: Arial;
+}
