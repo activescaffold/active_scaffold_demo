@@ -9,8 +9,7 @@ class UsersController < DemoController
     config.field_search.link.label = "Search By Field"
 
     config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :groups, :roles, :aliases]
-#FIXME 2007-03-10 (EJM) Level=0 - :select isn't working
-#    config.columns[:location].ui_type = :select
+    config.columns[:location].ui_type = :select
     config.columns[:phone_number].description = "(Format: ###-###-####)"
     config.columns[:phone_number].label = "Phone"
     
