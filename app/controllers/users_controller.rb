@@ -8,16 +8,17 @@ class UsersController < DemoController
     config.actions << :field_search
     field_search.link.label = "Search By Field"
 
-    config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :groups, :roles]
+    config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :groups, :roles, :aliases]
     columns[:location].ui_type = :select
     columns[:phone_number].description = "(Format: ###-###-####)"
     columns[:phone_number].label = "Phone"
     
     create.columns.exclude :id, :name, :groups, :roles, :location
-    list.columns.exclude :first_name, :middle_name, :last_name, :roles
+    list.columns.exclude :first_name, :middle_name, :last_name, :aliases
     list.sorting = {:login => 'ASC'}
     update.columns.exclude :id, :name
     
+    nested.add_link "Names", [:aliases]
   end
 
 end

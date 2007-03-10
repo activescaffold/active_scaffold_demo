@@ -1,6 +1,6 @@
 class DemoController < ApplicationController
   def index
-    redirect_to :controller => :user
+    redirect_to :controller => :users
   end
   
   def delete_all
