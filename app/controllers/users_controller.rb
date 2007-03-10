@@ -6,19 +6,20 @@ class UsersController < DemoController
 
   active_scaffold :user do |config|
     config.actions << :field_search
-    field_search.link.label = "Search By Field"
+    config.field_search.link.label = "Search By Field"
 
     config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :groups, :roles, :aliases]
-    columns[:location].ui_type = :select
-    columns[:phone_number].description = "(Format: ###-###-####)"
-    columns[:phone_number].label = "Phone"
+#FIXME 2007-03-10 (EJM) Level=0 - :select isn't working
+#    config.columns[:location].ui_type = :select
+    config.columns[:phone_number].description = "(Format: ###-###-####)"
+    config.columns[:phone_number].label = "Phone"
     
-    create.columns.exclude :id, :name, :groups, :roles, :location
-    list.columns.exclude :first_name, :middle_name, :last_name, :aliases
-    list.sorting = {:login => 'ASC'}
-    update.columns.exclude :id, :name
+    config.create.columns.exclude :id, :name
+    config.list.columns.exclude :first_name, :middle_name, :last_name, :aliases
+    config.list.sorting = {:login => 'ASC'}
+    config.update.columns.exclude :id, :name
     
-    nested.add_link "Names", [:aliases]
+    config.nested.add_link "Names", [:aliases]
   end
 
 end
