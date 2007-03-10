@@ -6,7 +6,7 @@ module ApplicationHelper
   end
   
   def show_code(path, filename, comment = "")
-    file = File.open(Dir.pwd + "/../app/#{path}/#{filename}")
+    file = File.open("#{File.dirname __FILE__}/../../app/#{path}/#{filename}")
 <<PRE_BLOCK
 <div class="Heading_1">/#{path}/#{filename} #{comment}</div>
 <pre>
