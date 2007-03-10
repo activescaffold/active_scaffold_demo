@@ -1,3 +1,32 @@
+.Heading_1 {
+line-height: 20px;
+margin-bottom: 0px; 
+margin-left: 0px; 
+margin-right: 0px; 
+margin-top: 0px; 
+padding-bottom: 0px; 
+padding-top: 0px; 
+text-align: left; 
+text-indent: 0px; 
+color: #483b3b; 
+font-family: 'ArialMT', 'Arial', 'sans-serif'; 
+font-size: 14px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bold; 
+letter-spacing: 0; 
+line-height: 15px; 
+opacity: 1.00; 
+text-decoration: none; 
+text-transform: none;
+}
+pre {
+  background-color: #81B0E2;
+  font-size: 11px;
+  overflow: auto;
+ 	color: #000; 
+ 	padding: 10px 0px 10px 10px;
+}
 #purge-data-wrapper {
 background: #ddd;
 width: 300px;

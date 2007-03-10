@@ -1,4 +1,4 @@
-class PermissionsController < ApplicationController
+class PermissionsController < DemoController
 
   active_scaffold
 

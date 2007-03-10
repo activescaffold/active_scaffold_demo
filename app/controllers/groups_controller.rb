@@ -1,4 +1,4 @@
-class GroupsController < ApplicationController
+class GroupsController < DemoController
 
   active_scaffold
 

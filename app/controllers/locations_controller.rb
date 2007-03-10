@@ -1,5 +1,5 @@
-class LocationsController < ApplicationController
+class LocationsController < DemoController
 
-  active_scaffold
+  active_scaffold :location
 
 end
