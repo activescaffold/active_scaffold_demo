@@ -38,29 +38,11 @@ class CreateUsers < ActiveRecord::Migration
       t.column "user_id", :integer, :default => 0, :null => false
       t.column "role_id", :integer, :default => 0, :null => false
     end
-
-    create_table :groups do |t|
-      t.column :title, :string
-      t.column :parent_id, :integer
-    end
-
-    create_table :groups_roles do |t|
-      t.column :group_id, :integer
-      t.column :role_id, :integer
-    end
-    
-    create_table :groups_users do |t|
-      t.column :group_id, :integer
-      t.column :user_id, :integer
-    end
   end
 
   def self.down
     drop_table :permissions_roles
     drop_table :roles_users
-    drop_table :groups_roles
-    drop_table :groups_users
-    drop_table :groups
     drop_table :permissions
     drop_table :roles
     drop_table :users

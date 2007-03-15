@@ -6,7 +6,8 @@ module ApplicationHelper
   end
   
   def show_code(path, filename, comment = "")
-    file = File.open("#{File.dirname __FILE__}/../../app/#{path}/#{filename}")
+    begin
+      file = File.open("#{File.dirname __FILE__}/../../app/#{path}/#{filename}")
 <<PRE_BLOCK
 <div class="Heading_1">/#{path}/#{filename} #{comment}</div>
 <pre>
@@ -14,6 +15,9 @@ module ApplicationHelper
 </pre>
 <div class="Body_1">&nbsp;</div>
 PRE_BLOCK
+    rescue
+      "#{filename} is missing"
+    end
   end
 
 end

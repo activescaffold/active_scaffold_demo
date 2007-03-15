@@ -1,5 +1,5 @@
 class RolesController < DemoController
 
-  active_scaffold
-
+  active_scaffold :roles do |config|
+  end
 end

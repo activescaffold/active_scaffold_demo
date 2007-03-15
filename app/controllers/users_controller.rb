@@ -5,7 +5,7 @@ class UsersController < DemoController
   end
 
   active_scaffold :user do |config|
-    config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :groups, :roles, :aliases]
+    config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :location, :roles, :aliases]
     config.columns[:location].ui_type = :select
     config.columns[:phone_number].description = "(Format: ###-###-####)"
     config.columns[:phone_number].label = "Phone"

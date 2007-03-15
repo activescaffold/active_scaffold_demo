@@ -4,7 +4,6 @@ class DemoController < ApplicationController
   end
   
   def delete_all
-    Group.destroy_all
     Location.destroy_all
     Permission.destroy_all
     Role.destroy_all
