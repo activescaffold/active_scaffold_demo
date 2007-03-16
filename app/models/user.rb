@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
-  belongs_to :location
-  belongs_to :company
+  belongs_to :company_branch# this isn't working, :class => "CompanyBranch"
   has_and_belongs_to_many :roles
   has_many :aliases, :dependent => :destroy
   

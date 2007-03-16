@@ -18,9 +18,9 @@ Scenarios: <%= link_to "user management", :controller => :users %> - <%= link_to
 	      Since this is a demo feel free to wipe out the data.
 	    </td>
 	    <td> 
-				<%= start_form_tag :action => :delete_all %>
+				<%= form_tag :action => :delete_all %>
 	      <input name="commit" type="submit" value="Purge Data" />
-	      </form>
+				<%= form_tag %>
 	    </td>
 	  </tr>
 	</table>

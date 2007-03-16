@@ -1,10 +1,6 @@
 class CreateUsers < ActiveRecord::Migration
   def self.up
 
-    create_table :locations do |t|
-      t.column :name, :string
-    end
-
     create_table :users do |t|
       t.column :first_name, :string
       t.column :middle_name, :string
@@ -13,7 +9,7 @@ class CreateUsers < ActiveRecord::Migration
       t.column :email_address, :string
       t.column :login, :string
       t.column :password, :string
-      t.column :location_id, :integer
+      t.column :company_branch_id, :integer
     end
 
     create_table :permissions do |t|

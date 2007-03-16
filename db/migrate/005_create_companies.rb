@@ -4,7 +4,6 @@ class CreateCompanies < ActiveRecord::Migration
       t.column :name, :string
       t.column :web_site, :string
     end
-    add_column "users", "company_id", :integer
   end
 
   def self.down
