@@ -1,3 +1,0 @@
-module AlphasHelper
-
-end
