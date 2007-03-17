@@ -26,13 +26,13 @@ class CreateUsers < ActiveRecord::Migration
     end
 
     create_table :permissions_roles, :id => false do |t|
-      t.column "permission_id", :integer, :default => 0, :null => false
-      t.column "role_id", :integer, :default => 0, :null => false
+      t.column "permission_id", :integer, :default => 0
+      t.column "role_id", :integer, :default => 0
     end
 
     create_table :roles_users, :id => false do |t|
-      t.column "user_id", :integer, :default => 0, :null => false
-      t.column "role_id", :integer, :default => 0, :null => false
+      t.column "user_id", :integer, :default => 0
+      t.column "role_id", :integer, :default => 0
     end
   end
 
@@ -42,6 +42,5 @@ class CreateUsers < ActiveRecord::Migration
     drop_table :permissions
     drop_table :roles
     drop_table :users
-    drop_table :locations
   end
 end
