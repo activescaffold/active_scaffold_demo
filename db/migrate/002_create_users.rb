@@ -9,7 +9,6 @@ class CreateUsers < ActiveRecord::Migration
       t.column :email_address, :string
       t.column :login, :string
       t.column :password, :string
-      t.column :company_branch_id, :integer
       t.column :created_at, :datetime
       t.column :updated_at, :datetime
     end
