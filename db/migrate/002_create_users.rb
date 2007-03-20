@@ -59,6 +59,5 @@ class CreateUsers < ActiveRecord::Migration
     drop_table :permissions
     drop_table :roles
     drop_table :users
-    drop_table :locations
   end
 end
