@@ -1,6 +1,5 @@
 class InitialSchema < ActiveRecord::Migration
   def self.up
-    # Was alphas
     create_table :forests, :force => true do |t|
       t.column :name, :string
       t.column :meta_title, :string
@@ -9,7 +8,6 @@ class InitialSchema < ActiveRecord::Migration
       t.column :updated_on, :datetime
     end
 
-    # Was betas
     create_table :rocks, :force => true do |t|
       t.column :name, :string, :null => false
       t.column :forest_id, :integer, :null => false
@@ -17,7 +15,6 @@ class InitialSchema < ActiveRecord::Migration
       t.column :updated_at, :datetime
     end
 
-    # Was gammas
     create_table :trees, :force => true do |t|
       t.column :name, :string, :null => false
       t.column :forest_id, :integer, :null => false
@@ -25,7 +22,6 @@ class InitialSchema < ActiveRecord::Migration
       t.column :updated_on, :datetime
     end
 
-    # Was deltas
     create_table :lakes, :force => true do |t|
       t.column :title, :string, :null => false
       t.column :created_on, :datetime
@@ -37,7 +33,6 @@ class InitialSchema < ActiveRecord::Migration
       t.column :lake_id, :integer, :null => false
     end
 
-    # Was epsilons
     create_table :trunks, :force => true do |t|
       t.column :name, :string, :null => false
       t.column :tree_id, :integer, :null => false
@@ -45,8 +40,14 @@ class InitialSchema < ActiveRecord::Migration
       t.column :updated_on, :datetime
     end
 
-    # Was zetas
     create_table :roots, :force => true do |t|
+      t.column :name, :string, :null => false
+      t.column :tree_id, :integer, :null => false
+      t.column :created_on, :datetime
+      t.column :updated_on, :datetime
+    end
+    
+    create_table :branches, :force => true do |t|
       t.column :name, :string, :null => false
       t.column :tree_id, :integer, :null => false
       t.column :created_on, :datetime
