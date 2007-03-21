@@ -1,0 +1,14 @@
+<div id="purge-data-wrapper" style="float: right;">
+  <table id="purge-data" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        Since this is a demo feel free to wipe out the data.
+      </td>
+      <td>
+        <%= form_tag :action => :delete_all %>
+        <input name="commit" type="submit" value="Purge Data" />
+        <%= form_tag %>
+      </td>
+    </tr>
+  </table>
+</div>

@@ -2,8 +2,12 @@
 # Likewise, all the methods added will be available for all controllers.
 class ApplicationController < ActionController::Base
 
-  ActiveScaffold.set_defaults do |config| 
+  ActiveScaffold.set_defaults do |config|
     config.ignore_columns.add [:created_at, :updated_at, :lock_version]
+  end
+
+  def source
+    render :partial => 'demo/source', :layout => 'popup'
   end
 
   def delete_all

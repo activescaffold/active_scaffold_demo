@@ -1,5 +1,6 @@
 class RolesController < DemoController
+  layout 'user_management'
 
-  active_scaffold :roles do |config|
-  end
+  active_scaffold :roles
+
 end

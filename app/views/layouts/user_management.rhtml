@@ -12,6 +12,13 @@
 <%= render :partial => "layouts/jump" %>
 <%= render :partial => "layouts/purge" %>
 
+<ul id="menu">
+  <li class="label">User Management:</li>
+  <% ['users', 'roles', 'permissions'].each do |controller| -%>
+  <li><%= link_to controller, :controller => controller -%></li>
+  <% end -%>
+</ul>
+
 <div style="clear: both;">
 <%= link_to 'view source', {:action => 'source'}, :popup => [params[:controller], 'height=800,width=500,scrollbars=1'], :class => 'source' %>
 <%= yield %>
