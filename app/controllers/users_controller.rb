@@ -1,5 +1,4 @@
 class UsersController < DemoController
-  layout 'user_management'
 
   active_scaffold :user do |config|
     config.columns = [:id, :name, :first_name, :middle_name, :last_name, :phone_number, :email_address, :login, :password, :roles, :aliases]

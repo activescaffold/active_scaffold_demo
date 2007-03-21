@@ -11,6 +11,7 @@
 <body>
 <%= render :partial => "layouts/jump" %>
 <%= render :partial => "layouts/purge" %>
+<%= render :partial => "layouts/menu" if @menu %>
 
 <div style="clear: both;">
 <%= link_to 'view source', {:action => 'source'}, :popup => [params[:controller], 'height=800,width=500,scrollbars=1'], :class => 'source' %>
