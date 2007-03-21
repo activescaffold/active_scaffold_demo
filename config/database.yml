@@ -1,44 +1,11 @@
 development:
-  adapter: mysql
-  database: active_scaffold_demo_development
-  host:
-  username:
-  password:
-  port:
-  sslcert:
-  sslcapath:
-  sslcipher:
-  socket:
-  sslkey:
-  schema_order:
-  dbfile:
+  adapter: sqlite3
+  database: db/development.sqlite3
 
 test:
-  adapter: mysql
-  database: active_scaffold_demo_test
-  host:
-  username:
-  password:
-  port:
-  sslcert:
-  sslcapath:
-  sslcipher:
-  socket:
-  sslkey:
-  schema_order:
-  dbfile:
+  adapter: sqlite3
+  database: ":memory:"
 
 production:
-  adapter: mysql
-  database: active_scaffold_demo
-  host:
-  username:
-  password:
-  port:
-  sslcert:
-  sslcapath:
-  sslcipher:
-  socket:
-  sslkey:
-  schema_order:
-  dbfile:
+  adapter: sqlite3
+  database: db/development.sqlite3

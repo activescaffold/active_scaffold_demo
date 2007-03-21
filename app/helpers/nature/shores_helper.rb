@@ -1,0 +1,2 @@
+module Nature::ShoresHelper
+end

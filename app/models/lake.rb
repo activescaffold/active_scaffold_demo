@@ -1,5 +1,6 @@
 class Lake < ActiveRecord::Base
-  
-  has_and_belongs_to_many :forests
-  
+
+  has_many :shores # a join model
+  has_many :forests, :through => :shores
+
 end

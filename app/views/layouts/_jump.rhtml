@@ -2,10 +2,11 @@
 
 scenarios = [
   ["user management", url_for(:controller => '/users')],
-  ["habtm", url_for(:controller => 'nature/lakes')],
+  ["habtm", url_for(:controller => '/permissions')],
   ["has_many", url_for(:controller => 'nature/trees')],
   ["belongs_to", url_for(:controller => 'nature/trunks')],
-  ["has_one", url_for(:controller => 'nature/forests')]
+  ["has_one", url_for(:controller => 'nature/forests')],
+  ["join model", url_for(:controller => 'nature/shores')]
 ]
 
 controllers = Dir['app/controllers/**/*_controller.rb'].collect {|c| c.sub('app/controllers', '').sub('_controller.rb', '')}
