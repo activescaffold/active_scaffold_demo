@@ -14,16 +14,14 @@ controllers.delete('demo')
 
 %>
 <div id="jump">
-  <div class="inner">
-    Jump to:
-    <select onchange="window.location = this.value">
-      <option>Scenario:</option>
-      <%= options_for_select scenarios %>
-    </select>
+  <label>Go to demo:</label>
+  <select onchange="window.location = this.value">
+    <option>Scenario:</option>
+    <%= options_for_select scenarios %>
+  </select>
 
-    <select onchange="window.location = this.value">
-      <option>Scaffold:</option>
-      <%= options_for_select controllers.sort.collect {|c| [File.basename(c), c]} %>
-    </select>
-  </div>
+  <select onchange="window.location = this.value">
+    <option>Scaffold:</option>
+    <%= options_for_select controllers.sort.collect {|c| [File.basename(c), c]} %>
+  </select>
 </div>

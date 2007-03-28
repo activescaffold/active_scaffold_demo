@@ -1,70 +1,91 @@
 body {
-width: 1000px;
-margin: 0px auto;
+color: #333;
+font-family: arial, sans-serif;
+font-size: 10px;
+line-height: 180%;
+background: #fff url(../images/background.png) repeat-x;
 }
 
-h2 {
-font-size: 100%;
+a {
+color: #CA001D;
+text-decoration: none;
 }
 
-pre {
-background-color: #81B0E2;
-font-size: 11px;
-overflow: auto;
-color: #000;
-padding: 10px 0px 10px 10px;
+a:visited {
+color: #8C0017;
 }
 
-#purge-data-wrapper {
-background: #ddd;
-width: 300px;
-margin: 10px 10px 5px 30px;
-float: right;
+a:hover {
+text-decoration: underline;
 }
 
-#purge-data td {
-padding: 0 6px;
-font-size: 11px;
-font-family: Verdana;
-line-height: 11px;
-}
-
-#purge-data td input {
-padding: 1px;
+strong {
 font-weight: bold;
-font-size: 14px;
-font-family: Arial;
+background-color: #ffc;
+}
+
+/* Layout
+   =========================== */
+
+#wrap {
+width: 800px;
+margin: 0 auto;
+}
+
+#content {
+clear: both;
+}
+
+
+/* Header
+   =========================== */
+
+#header {
+padding: 10px 0;
+position: relative;
+}
+
+#header h1 {
+text-indent: -4000px;
+background: url(../images/banner_t.png) 0 0 no-repeat;
+height: 32px;
+}
+
+#header h2.description {
+margin-left: 40px;
+margin-top: -3px;
+line-height: 100%;
+color: #666;
 }
 
 #jump {
-background: #ddd;
-margin: 10px 30px 5px 10px;
-float: left;
+position: absolute;
+top: 15px;
+right: 0px;
 font-size: 11px;
 }
 
-#jump .inner {
-padding: 1px 6px;
+#jump label {
+color: #999;
+font-weight: bold;
+text-transform: uppercase;
 }
 
+/* Menu
+   =========================== */
+
 ul#menu {
-margin: 0px;
-padding: 0px;
-list-style: none;
-display: block;
-clear: both;
 overflow: auto;
-zoom: 1;
-background-color: #e6f2ff;
-border: 1px solid #c5dbf7;
-margin-bottom: 10px;
+margin: 10px 0 0 0;
 }
 
 ul#menu li {
 float: left;
+font-size: 120%;
 }
 
 ul#menu li.label {
+color: #666;
 padding: 2px 6px;
 }
 
@@ -79,9 +100,89 @@ ul#menu li a:hover {
 background-color: #ff8;
 }
 
-a.source {
-padding-left: 20px;
-background: url('/images/page_white_go.gif') no-repeat;
-font-size: 14px;
-font-style: italic;
+/* Content :: Headers
+   =========================== */
+
+#content h2 {
+font: bold 180% arial;
+margin-bottom: 10px;
+}
+
+#content h2,
+#content h2 a {
+color: #ccad00;
+}
+
+#content h3 {
+font: bold 140% arial;
+margin: 15px 0 10px 0;
+color: #ccad00;
+}
+
+#content h3 small {
+font: bold 60% arial;
+text-transform: uppercase;
+}
+
+#content h4 {
+color: #888;
+font: bold 100% arial;
+text-transform: uppercase;
+margin: 10px 0;
+}
+
+#content h5 {
+color: #f00;
+}
+
+/* Code
+   =========================== */
+
+code{
+font-size: 120%;
+line-height: 140%;
+background-color: #ddd;
+}
+
+pre{
+background: #333;
+color: #fffed8;
+border: 1px inset #aaa;
+overflow:auto;
+padding: 3px 5px;
+margin: 5px 0;
+}
+
+pre code {
+background-color: transparent;
+}
+
+/* Code :: Ruby
+   =========================== */
+
+span.comment{
+  font-style: italic;
+  color: #98C1DC;
+}
+span.keywords{
+  font-weight: bold;
+  color:#cda869;
+}
+span.string{
+  color:#8f9d6a !important;
+}
+span.brackets{
+  color:#efe900;
+}
+span.symbol{
+  color:#CF6A4C;
+}
+span.instance{
+  color:#7587a6;
+}
+span.constants{
+  color:#cf6a4c;
+}
+span.method{
+  color:#f8f097;
 }

@@ -14,6 +14,11 @@ class UsersController < DemoController
     config.list.sorting = {:login => 'ASC'}
 
     config.nested.add_link "Names", [:aliases]
+
+    config.create.columns.exclude(:first_name, :middle_name, :last_name, :phone_number)
+    config.create.columns.add_subgroup "Optional" do |group|
+      group.add(:first_name, :middle_name, :last_name, :phone_number)
+    end
   end
 
 end

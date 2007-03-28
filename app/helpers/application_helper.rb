@@ -5,10 +5,8 @@ module ApplicationHelper
     begin
       file = File.open("#{File.dirname __FILE__}/../../app/#{path}/#{filename}")
 <<PRE_BLOCK
-<h2>/#{path}/#{filename} #{comment}</h2>
-<pre>
-#{file.read.gsub("<", "&lt;").gsub(">", "&gt;")}
-</pre>
+<h4>/#{path}/#{filename} #{comment}</h4>
+<pre><code class=\"ruby\">#{file.read.gsub("<", "&lt;").gsub(">", "&gt;").strip}</code></pre>
 PRE_BLOCK
     rescue
       "#{filename} is missing"
