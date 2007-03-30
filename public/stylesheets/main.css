@@ -30,18 +30,18 @@ background-color: #ffc;
 #wrap {
 width: 1000px;
 margin: 0 auto;
+position: relative;
 }
 
 #content {
 clear: both;
 }
 
-
 /* Header
    =========================== */
 
 #header {
-padding: 10px 0;
+padding: 1em 0 0 0;
 position: relative;
 }
 
@@ -58,10 +58,80 @@ line-height: 100%;
 color: #666;
 }
 
-#jump {
+#header #latest-release {
 position: absolute;
-top: 15px;
-right: 0px;
+right: 5px;
+bottom: 5px;
+color: #999;
+font: normal 140% arial;
+text-transform: lowercase;
+
+}
+
+#header #latest-release small {
+font-size: 80%;
+}
+
+#header #latest-release a {
+font: bold 100% verdana;
+text-transform: uppercase;
+}
+
+/* Navigation
+   =========================== */
+
+#nav {
+margin: 10px 0 5px 0;
+height: 27px;
+background: url(../images/nav-border.gif) bottom left repeat-x;
+}
+
+#nav li {
+float: left;
+margin-right: 0;
+margin-left:5px;
+}
+
+#nav li a:visited {
+color: #CA001D;
+}
+
+#nav li a {
+padding: 5px 8px;
+display: block;
+font: bold 120% arial;
+background-color: #eee;
+border: solid 1px #ddd;
+border-bottom: solid 1px #ccc;
+}
+
+#nav li a:hover {
+text-decoration: none;
+background-color: #ffa;
+}
+
+#nav li a.selected {
+border: solid 1px #ccc;
+border-bottom: solid 1px #fff;
+text-decoration: none;
+color: #666;
+cursor: default;
+background-color: #fff;
+}
+
+#nav li a.selected:hover {
+background-color: #fff;
+}
+
+/* SubNav :: Jump
+   =========================== */
+
+#sub-nav {
+position: relative;
+padding: 5px 0;
+}
+
+#jump {
 font-size: 11px;
 }
 
@@ -75,8 +145,7 @@ text-transform: uppercase;
    =========================== */
 
 ul#menu {
-overflow: auto;
-margin: 10px 0 0 0;
+float: right;
 }
 
 ul#menu li {
@@ -86,7 +155,7 @@ font-size: 120%;
 
 ul#menu li.label {
 color: #666;
-padding: 2px 6px;
+padding: 2px 6px 2px 0;
 }
 
 ul#menu li a {
