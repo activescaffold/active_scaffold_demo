@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
     first_name + " " + last_name
   end
 
-  def create_authorized?(user)
+  def authorized_for_create?
     true
   end
 
