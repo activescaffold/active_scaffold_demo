@@ -6,7 +6,8 @@ scenarios = [
   ["has_many", url_for(:controller => 'nature/trees')],
   ["belongs_to", url_for(:controller => 'nature/trunks')],
   ["has_one", url_for(:controller => 'nature/forests')],
-  ["join model", url_for(:controller => 'nature/shores')]
+  ["join model", url_for(:controller => 'nature/shores')],
+  ["polymorphic", url_for(:controller => '/addresses')]
 ]
 
 controllers = Dir['app/controllers/**/*_controller.rb'].collect {|c| c.sub('app/controllers', '').sub('_controller.rb', '')}
