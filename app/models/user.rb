@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
   validates_presence_of :first_name
 
   def name
-    first_name.to_s + " " + last_name.to_s
+    last_name.nil? ? first_name : first_name + " " + last_name
   end
+  
 end
