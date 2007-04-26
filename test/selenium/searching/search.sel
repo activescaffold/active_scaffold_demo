@@ -1,9 +1,3 @@
-To see this page start the server using script/server -e test and navigate to http://localhost:3000/selenium/
-
-rake dump_fixtures
-rake db:test:prepare
-rake db:fixtures:load RAILS_ENV=test
-
 It's often a good idea to start the test with opening <tt>/selenium/setup</tt> (see "here":/selenium/setup for more info).
 
 |open|/selenium/setup|
