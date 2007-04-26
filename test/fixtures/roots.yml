@@ -1,5 +1,13 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-  id: 1
-two:
-  id: 2
+--- 
+roots_001: 
+  created_on: 2007-03-21 20:56:12
+  name: lots
+  updated_on: 2007-03-21 20:56:12
+  id: "1"
+  tree_id: "1"
+roots_002: 
+  created_on: 2007-03-21 20:56:30
+  name: more
+  updated_on: 2007-03-21 20:56:30
+  id: "2"
+  tree_id: "1"

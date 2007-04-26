@@ -1,5 +1,9 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-  id: 1
-two:
-  id: 2
+--- 
+roles_001: 
+  name: boss
+  updated_at: 2007-04-02 10:17:35
+  omnipotent: "0"
+  id: "1"
+  description: ""
+  created_at: 2007-03-20 14:50:59
+  system_role: "0"

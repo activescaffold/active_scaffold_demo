@@ -1,5 +1,709 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-  id: 1
-two:
-  id: 2
+--- 
+users_059: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "59"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_048: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "48"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_037: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "37"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_026: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "26"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_015: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "15"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_004: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "4"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_049: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "49"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_038: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "38"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_027: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "27"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_016: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "16"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_005: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "5"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_050: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "50"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_039: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "39"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_028: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "28"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_017: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "17"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_006: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "6"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_051: 
+  updated_at: 2007-04-17 09:24:50
+  signed_up_on: 
+  phone_number: 
+  id: "51"
+  first_name: med
+  password: 
+  login: J
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_040: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "40"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_052: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "52"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_041: 
+  updated_at: 2007-04-17 09:11:00
+  signed_up_on: 
+  phone_number: 
+  id: "41"
+  first_name: med
+  password: 
+  login: a
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_030: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "30"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_029: 
+  updated_at: 2007-04-17 09:11:10
+  signed_up_on: 
+  phone_number: 
+  id: "29"
+  first_name: med
+  password: 
+  login: A
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_018: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "18"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_007: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "7"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_053: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "53"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_042: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "42"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_031: 
+  updated_at: 2007-04-21 11:12:53
+  signed_up_on: "2007-04-21"
+  phone_number: 
+  id: "31"
+  first_name: med
+  password: 
+  login: 
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_020: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "20"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_019: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "19"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_008: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "8"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_054: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "54"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_043: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "43"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_032: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "32"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_021: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "21"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_010: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "10"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_009: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "9"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_055: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "55"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_044: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "44"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_033: 
+  updated_at: 2007-04-17 09:11:23
+  signed_up_on: 
+  phone_number: 
+  id: "33"
+  first_name: med
+  password: 
+  login: Z
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_022: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "22"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_011: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "11"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_056: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "56"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_045: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "45"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_034: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "34"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_023: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "23"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_012: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "12"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_001: 
+  updated_at: 2007-04-02 10:17:35
+  signed_up_on: 
+  phone_number: ""
+  id: "1"
+  first_name: fred
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-20 14:50:44
+  email_address: ""
+  middle_name: ""
+users_057: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "57"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_046: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "46"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_035: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "35"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_024: 
+  updated_at: 2007-04-17 09:24:40
+  signed_up_on: 
+  phone_number: 
+  id: "24"
+  first_name: med
+  password: 
+  login: j
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_013: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "13"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_002: 
+  updated_at: 2007-03-29 11:25:17
+  signed_up_on: 
+  phone_number: ""
+  id: "2"
+  first_name: teddy
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-20 14:50:59
+  email_address: ""
+  middle_name: ""
+users_058: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "58"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_047: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "47"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_036: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "36"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_025: 
+  updated_at: 2007-04-17 09:10:48
+  signed_up_on: 
+  phone_number: 
+  id: "25"
+  first_name: med
+  password: 
+  login: z
+  last_name: z
+  created_at: 2007-03-21 11:28:28
+  email_address: 
+  middle_name: 
+users_014: 
+  updated_at: 2007-03-21 11:28:28
+  signed_up_on: 
+  phone_number: ""
+  id: "14"
+  first_name: med
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:28:28
+  email_address: ""
+  middle_name: ""
+users_003: 
+  updated_at: 2007-03-29 11:25:29
+  signed_up_on: 
+  phone_number: ""
+  id: "3"
+  first_name: freddy
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-21 11:25:05
+  email_address: ""
+  middle_name: ""

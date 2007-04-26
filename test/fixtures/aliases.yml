@@ -1,5 +1,7 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-  id: 1
-two:
-  id: 2
+--- 
+aliases_001: 
+  name: t
+  updated_at: 2007-03-29 11:25:18
+  id: "1"
+  user_id: "2"
+  created_at: 2007-03-20 14:51:00

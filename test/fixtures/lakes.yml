@@ -1,5 +1,16 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-  id: 1
-two:
-  id: 2
+--- 
+lakes_001: 
+  created_on: 2007-03-20 15:04:18
+  title: Mirror
+  updated_on: 2007-03-20 15:04:18
+  id: "1"
+lakes_002: 
+  created_on: 2007-03-20 15:04:48
+  title: emerald
+  updated_on: 2007-03-20 15:04:48
+  id: "2"
+lakes_003: 
+  created_on: 2007-03-20 22:43:49
+  title: navajo
+  updated_on: 2007-03-20 22:43:49
+  id: "3"
