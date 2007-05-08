@@ -14,19 +14,19 @@
     <div id="header"><a href="http://www.activescaffold.com/"><h1>ActiveScaffold</h1></a>
       <h2 class="description">A <a href="http://rubyonrails.org/">Ruby on Rails</a> plugin from the makers of <a href="http://www.ajaxscaffold.com">AjaxScaffold</a></h2>
       <ul id="nav">
-        <li><a href="http://www.activescaffold.com/">Home</a></li>
-        <li><a href="http://www.activescaffold.com/docs">Documentation</a></li>
-        <li><a href="http://www.activescaffold.com/team">Team</a></li>
-        <li><a href="http://www.activescaffold.com/blog">Blog</a></li>
+        <li><a href="http://activescaffold.com/">Home</a></li>
+        <li><a href="http://activescaffold.com/docs">Documentation</a></li>
+        <li><a href="http://activescaffold.com/team">Team</a></li>
+        <li><a href="http://activescaffold.com/help">Help</a></li>
+        <li><a href="http://activescaffold.com/contribute">Contribute</a></li>
+        <li><a href="http://activescaffold.com/blog">Blog</a></li>
         <li><a class="selected" href="http://demo.activescaffold.com">Demo</a></li>
-        <li><a href="http://groups.google.com/group/activescaffold">Forum</a></li>
-        <li><a href="http://code.google.com/p/activescaffold/issues/list">Issues / Bugs</a></li>
      </ul>
       <p id="latest-release">
-        Latest release is <strong>rc1</strong>:
+        Latest release is <strong>rc2</strong>:
         <small>
-          <a href="http://activescaffold.googlecode.com/files/active_scaffold_1_0_rc1.zip">download</a> |
-          <a href="http://activescaffold.googlecode.com/svn/tags/current">svn</a>
+          <a href="http://activescaffold.googlecode.com/files/active_scaffold_1_0_0_rc2.zip">download</a> |
+          <a href="http://activescaffold.googlecode.com/svn/tags/active_scaffold/">svn</a>
         </small>
       </p>
     </div>
@@ -40,5 +40,15 @@
       <%= render :partial => "demo/source" %>
     </div>
   </div>
+
+  <% unless request.host.scan('activescaffold.com').empty? -%>
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    _uacct = "UA-79951-10";
+    urchinTracker();
+    </script>
+  <% end -%>
+
 </body>
 </html>
