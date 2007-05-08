@@ -8,7 +8,7 @@ class UsersController < DemoController
 
     config.create.columns.exclude :id, :name
     config.update.columns.exclude :id, :name
-    config.list.columns.exclude :first_name, :middle_name, :last_name
+    config.list.columns.exclude :first_name, :middle_name, :last_name, :password
     config.subform.columns = [:first_name, :last_name, :login, :password]
 
     config.list.sorting = {:login => 'ASC'}
