@@ -24,6 +24,10 @@ font-weight: bold;
 background-color: #ffc;
 }
 
+.clear-fix {
+clear: both;
+}
+
 /* Layout
    =========================== */
 
@@ -82,7 +86,6 @@ text-transform: uppercase;
 
 #nav {
 margin: 10px 0 5px 0;
-height: 27px;
 background: url(../images/nav-border.gif) bottom left repeat-x;
 }
 
