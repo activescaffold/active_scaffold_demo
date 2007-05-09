@@ -1,6 +1,6 @@
 class SimplifyNature < ActiveRecord::Migration
   def self.up
-#    %w(branches forests lakes rocks roots shores trees trunks).each { |table| drop_table(table) }
+    %w(branches forests lakes rocks roots shores trees trunks).each { |table| drop_table(table) }
 
     create_table :bears, :force => true do |t|
       t.column :name, :string, :null => false
