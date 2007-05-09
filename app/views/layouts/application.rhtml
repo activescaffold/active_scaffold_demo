@@ -32,8 +32,11 @@
       </p>
     </div>
     <div id="sub-nav">
-      <%= render :partial => "layouts/menu" if @menu %>
       <%= render :partial => "layouts/jump" %>
+      <a href="http://activescaffold.googlecode.com/svn/applications/demo/" id="download">
+        Download the demo from SVN
+      </a>
+      <%= render :partial => "layouts/menu" if @menu %>
     </div>
     <%= yield %>
     <div id="content">

@@ -32,7 +32,7 @@ clear: both;
    =========================== */
 
 #wrap {
-width: 1000px;
+width: 760px;
 margin: 0 auto;
 position: relative;
 }
@@ -144,15 +144,27 @@ font-weight: bold;
 text-transform: uppercase;
 }
 
+/* Download
+   =========================== */
+
+a#download {
+font: bold 140% arial;
+background: url(../images/disk.png) 0 50% no-repeat;
+padding: 2px 2px 2px 20px;
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
 /* Menu
    =========================== */
 
 ul#menu {
-float: right;
+margin-top: 10px;
 }
 
 ul#menu li {
-float: left;
+display: inline;
 font-size: 120%;
 }
 
@@ -161,8 +173,7 @@ color: #666;
 padding: 2px 6px 2px 0;
 }
 
-ul#menu li a {
-display: block;
+ul#menu li a {\
 padding: 2px 6px;
 color: #06c;
 text-decoration: none;
