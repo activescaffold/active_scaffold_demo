@@ -1,12 +1,12 @@
 require File.dirname(__FILE__) + '/../../test_helper'
-require 'nature/forests_controller'
+require 'nature/bears_controller'
 
 # Re-raise errors caught by the controller.
-class Nature::ForestsController; def rescue_action(e) raise e end; end
+class Nature::BearsController; def rescue_action(e) raise e end; end
 
-class Nature::ForestsControllerTest < Test::Unit::TestCase
+class Nature::BearsControllerTest < Test::Unit::TestCase
   def setup
-    @controller = Nature::ForestsController.new
+    @controller = Nature::BearsController.new
     @request    = ActionController::TestRequest.new
     @response   = ActionController::TestResponse.new
   end

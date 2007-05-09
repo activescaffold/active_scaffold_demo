@@ -1,0 +1,2 @@
+module Nature::TrackingDevicesHelper
+end

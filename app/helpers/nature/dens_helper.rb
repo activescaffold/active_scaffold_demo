@@ -1,0 +1,2 @@
+module Nature::DensHelper
+end

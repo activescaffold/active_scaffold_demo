@@ -1,2 +1,0 @@
-module Nature::TreesHelper
-end
