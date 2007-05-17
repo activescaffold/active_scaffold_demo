@@ -269,3 +269,19 @@ span.constants{
 span.method{
   color:#f8f097;
 }
+
+/* SecuredRecordsController
+   =========================== */
+
+a#login {
+  font-size: 150%;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+span.restricted {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

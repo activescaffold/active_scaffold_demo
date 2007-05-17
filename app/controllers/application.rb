@@ -1,10 +1,12 @@
 # Filters added to this controller will be run for all controllers in the application.
 # Likewise, all the methods added will be available for all controllers.
 class ApplicationController < ActionController::Base
+  include AuthenticatedSystem
   before_filter :generate_menu
 
   ActiveScaffold.set_defaults do |config|
     config.ignore_columns.add [:created_at, :updated_at, :lock_version]
+    config.security.current_user_method = :current_login
   end
 
   def source
