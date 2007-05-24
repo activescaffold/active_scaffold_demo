@@ -8,7 +8,8 @@ scenarios = [
   ["has_one", url_for(:controller => 'nature/bears')],
   ["join model", url_for(:controller => 'nature/dens')],
   ["polymorphic", url_for(:controller => 'nature/tracking_devices')],
-  ["security", url_for(:controller => '/secured_records')]
+  ["security", url_for(:controller => '/secured_records')],
+  ["field/form overrides", url_for(:controller => '/roles')]
 ]
 
 controllers = Dir['app/controllers/**/*_controller.rb'].collect {|c| c.sub('app/controllers', '').sub('_controller.rb', '')}
