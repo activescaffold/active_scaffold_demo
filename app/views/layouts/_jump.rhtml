@@ -2,12 +2,12 @@
 
 scenarios = [
   ["user management", url_for(:controller => '/users')],
-  ["habtm", url_for(:controller => '/permissions')],
+  ["habtm", url_for(:controller => 'nature/lakes')],
   ["has_many", url_for(:controller => 'nature/parks')],
   ["belongs_to", url_for(:controller => 'nature/dens')],
   ["has_one", url_for(:controller => 'nature/bears')],
-  ["join model", url_for(:controller => 'nature/lakes')],
-  ["polymorphic", url_for(:controller => '/addresses')],
+  ["join model", url_for(:controller => 'nature/dens')],
+  ["polymorphic", url_for(:controller => 'nature/tracking_devices')],
   ["security", url_for(:controller => '/secured_records')]
 ]
 
