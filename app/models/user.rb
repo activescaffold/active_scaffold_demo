@@ -10,6 +10,8 @@ class User < ActiveRecord::Base
   #   } 
   # }
   
+  validates_filesize_of :photo, :in => 0..100.kilobytes
+  
   def name
     last_name.nil? ? first_name : first_name + " " + last_name
   end
