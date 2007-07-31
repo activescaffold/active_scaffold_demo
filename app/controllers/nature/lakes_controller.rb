@@ -2,6 +2,7 @@ class Nature::LakesController < ApplicationController
 
   active_scaffold do |config|
     [:list, :create, :update, :search].each {|action| config.send(action).columns.exclude :bears}
+    nested.shallow_delete = true
     config.subform.columns.exclude :meta_title, :meta_keyword
 
     config.columns[:meta_title].label = 'Title'
