@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_filter :generate_menu
 
   ActiveScaffold.set_defaults do |config|
-    config.ignore_columns.add [:created_at, :updated_at, :lock_version]
+    config.ignore_columns.add [:created_at, :updated_at]
     config.security.current_user_method = :current_login
   end
 
