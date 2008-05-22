@@ -1,1 +1,7 @@
 .DS_Store
+/db/development.sqlite3
+/db/schema.rb
+/public/images/active_scaffold
+/public/javascripts/active_scaffold
+/public/stylesheets/active_scaffold
+/public/user
