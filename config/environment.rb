@@ -4,6 +4,7 @@ RAILS_GEM_VERSION = '1.2'
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
+  config.action_controller.session = { :session_key => "_active_scaffold_demo", :secret => ("shhh." * 6) }
 end
 
 ActiveScaffold.set_defaults do |config| 
