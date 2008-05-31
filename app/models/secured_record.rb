@@ -1,3 +1,16 @@
+# == Schema Information
+# Schema version: 12
+#
+# Table name: secured_records
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  message    :text
+#  login_id   :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class SecuredRecord < ActiveRecord::Base
   belongs_to :owner, :class_name => 'Login', :foreign_key => 'login_id'
   validates_presence_of :name, :message
