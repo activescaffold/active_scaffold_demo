@@ -9,5 +9,6 @@ h2. To install and run:
 git clone git://github.com/activescaffold/active_scaffold_demo.git
 cd active_scaffold_demo
 git submodule init && git submodule update  
+rake db:migrate
 script/server
 </pre>
