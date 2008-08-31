@@ -1,0 +1,53 @@
+h1. Selenium tests
+
+h2. Overview
+
+The selenium test folders require Selenium. Selenium comes in several packages: as a Gem, Selenium Core, Selenium IDE, the Selenium on Rails plugin and the Remote Control or RC plugin.  At the moment, ActiveScaffold only makes sure of Selenium on Rails
+
+I tried using Selenium RC, but it works miserably with Firefox 3, and crashed for Safari... so I said "forget 'bout it"
+
+h2. Running the tests
+
+
+<pre>
+# Install the Selenium On Rails plugin:
+script/plugin install git://github.com/ryanb/selenium-on-rails.git
+
+# Setup the test database
+RAILS_ENV=test rake db:migrate
+
+# Start the Rails server:
+script/server -e test -p 3001
+
+# Navigate to http://localhost:3001/selenium/
+open http://localhost:3001/selenium/
+
+</pre>
+
+h2. Writing selenium tests
+
+h3. Selenium IDE
+
+I recommend downloading the "Selenium IDE":http://www.openqa.org/selenium-ide/. This is a good way to get familiar with Selenium.
+
+h3. Installing rselenese:
+
+The test cases in the "selenium" folder are RSelenese (.rsel) files, and can be easily created via the IDE. 
+
+To install RSelenese for the Selenium IDE:
+
+"Download rselenese.js":http://wiki.openqa.org/display/SIDE/SeleniumOnRails
+
+To install, Follow the instructions under "Formats" on how to install the above rselenese format "here":http://wiki.openqa.org/display/SIDE/Contributed+Extensions+and+Formats
+
+h2. Conclusion
+
+What kinds of tests do we need? Which tools do we need to support?
+
+h3. Helpful links:
+
+* "Automate acceptance tests with Selenium":http://www.infoq.com/articles/testing-ajax-selenium
+* "Selenium":http://www.openqa.org/
+* "Selenium IDE":http://www.openqa.org/selenium-ide/
+
+

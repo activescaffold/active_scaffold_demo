@@ -1,5 +1,5 @@
 # ENV['RAILS_ENV'] ||= 'production'
-RAILS_GEM_VERSION = '2.0.2'
+RAILS_GEM_VERSION = '2.1'
 
 require File.join(File.dirname(__FILE__), 'boot')
 
@@ -10,3 +10,5 @@ end
 ActiveScaffold.set_defaults do |config| 
   config.ignore_columns.add [:created_at, :updated_at, :id]
 end
+
+load RAILS_ROOT + "/db/schema.rb" if RAILS_ENV == 'test'

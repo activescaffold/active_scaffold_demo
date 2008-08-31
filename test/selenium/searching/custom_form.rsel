@@ -1,0 +1,12 @@
+  setup :fixtures => :all
+  open "/roles"
+  wait_for_page_to_load "30000"
+  click "roles-show_search--link"
+  wait_for_element_present "search_name"
+  type "search_name", "peon"
+  click "commit"
+  wait_for_element_present "roles-empty-message"
+  click "search_name"
+  type "search_name", "boss"
+  click "commit"
+  wait_for_element_present "//tr[@id='roles-list-1-row']"

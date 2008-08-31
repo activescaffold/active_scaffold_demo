@@ -1,5 +1,0 @@
-  open "/roles"
-  wait_for_page_to_load "30000"
-  click "users-search-input"
-  type "users-search-input", "test"
-  click "commit"
