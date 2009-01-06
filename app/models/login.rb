@@ -25,7 +25,7 @@ class Login < ActiveRecord::Base
   validates_length_of       :password, :within => 4..40, :if => :password_required?
   validates_confirmation_of :password,                   :if => :password_required?
   validates_length_of       :login,    :within => 3..40
-  validates_length_of       :email,    :within => 3..100, :allow_nil => true
+  validates_length_of       :email,    :within => 3..100, :allow_nil => false
   validates_uniqueness_of   :login, :case_sensitive => false
   before_save :encrypt_password
 
