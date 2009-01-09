@@ -14,13 +14,15 @@ class CreateSecurityScenario < ActiveRecord::Migration
     Login.new(
       :login => 'demo_user',
       :password => 'letmein',
-      :password_confirmation => 'letmein'
+      :password_confirmation => 'letmein',
+      :email => 'hello@hello.com'
     ).save!
 
     Login.new(
       :login => 'other_user',
       :password => 'letmein',
-      :password_confirmation => 'letmein'
+      :password_confirmation => 'letmein',
+      :email => 'hello@hello.com'
     ).save!
 
     create_table :secured_records do |t|
