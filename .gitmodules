@@ -4,3 +4,9 @@
 [submodule "vendor/gems/webrat"]
 	path = vendor/gems/webrat
 	url = git://github.com/brynary/webrat.git
+[submodule "vendor/plugins/file_column"]
+	path = vendor/plugins/file_column
+	url = git://github.com/activescaffold/file_column.git
+[submodule "vendor/plugins/active_scaffold"]
+	path = vendor/plugins/active_scaffold
+	url = git://github.com/activescaffold/active_scaffold.git

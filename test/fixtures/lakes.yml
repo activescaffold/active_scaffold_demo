@@ -1,0 +1,30 @@
+# == Schema Information
+# Schema version: 12
+#
+# Table name: lakes
+#
+#  id           :integer         not null, primary key
+#  title        :string(255)     default(""), not null
+#  meta_title   :string(255)
+#  meta_keyword :string(255)
+#  created_at   :datetime
+#  updated_at   :datetime
+#  lock_version :integer         default(0), not null
+#
+
+--- 
+mirror_lake: 
+  id: "1"
+  title: Mirror
+  created_at: 2007-03-20 15:04:18
+  updated_at: 2007-03-20 15:04:18
+emarald_lake: 
+  id: "2"
+  title: emerald
+  created_at: 2007-03-20 15:04:48
+  updated_at: 2007-03-20 15:04:48
+navajo_lake: 
+  id: "3"
+  title: navajo
+  created_at: 2007-03-20 22:43:49
+  updated_at: 2007-03-20 22:43:49

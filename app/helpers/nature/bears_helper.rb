@@ -1,0 +1,2 @@
+module Nature::BearsHelper
+end

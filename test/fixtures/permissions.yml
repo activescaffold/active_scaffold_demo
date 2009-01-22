@@ -1,0 +1,21 @@
+# == Schema Information
+# Schema version: 12
+#
+# Table name: permissions
+#
+#  id          :integer         not null, primary key
+#  controller  :string(255)     default(""), not null
+#  action      :string(255)     default(""), not null
+#  description :string(255)
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+--- 
+permissions_001: 
+  updated_at: 2007-03-29 11:25:29
+  action: ""
+  id: "1"
+  description: ""
+  controller: admin
+  created_at: 2007-03-21 14:37:47

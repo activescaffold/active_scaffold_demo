@@ -1,0 +1,16 @@
+/* IE hacks
+   ==================================== */
+
+#header,
+#nav {
+zoom: 1;
+}
+
+* html #header h1 {
+background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/banner_t.png', sizingMethod='crop');
+}
+
+#header #latest-release {
+bottom: 10px;
+}

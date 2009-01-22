@@ -1,0 +1,19 @@
+# == Schema Information
+# Schema version: 12
+#
+# Table name: aliases
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  user_id    :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+--- 
+aliases_001: 
+  name: t
+  updated_at: 2007-03-29 11:25:18
+  id: "1"
+  user_id: "2"
+  created_at: 2007-03-20 14:51:00

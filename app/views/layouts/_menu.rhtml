@@ -1,0 +1,9 @@
+<ul id="menu">
+  <% if @menu.label -%>
+  <li class="label"><%= @menu.label -%>:</li>
+  <% end -%>
+
+  <% @menu.entries.each do |entry| -%>
+  <li><%= link_to entry[0], entry[1] -%></li>
+  <% end -%>
+</ul>

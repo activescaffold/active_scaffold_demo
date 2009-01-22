@@ -1,0 +1,61 @@
+# == Schema Information
+# Schema version: 12
+#
+# Table name: users
+#
+#  id            :integer         not null, primary key
+#  first_name    :string(255)
+#  middle_name   :string(255)
+#  last_name     :string(255)
+#  phone_number  :string(255)
+#  email_address :string(255)
+#  login         :string(255)
+#  password      :string(255)
+#  created_at    :datetime
+#  updated_at    :datetime
+#  photo         :string(255)
+#
+
+--- 
+admin: 
+  updated_at: 2007-03-29 11:25:29
+  phone_number: ""
+  id: "1"
+  first_name: Admin
+  password: ""
+  login: admin
+  last_name: Boss
+  created_at: 2007-03-21 11:25:05
+  email_address: ""
+  middle_name: ""
+teddy: 
+  updated_at: 2007-03-29 11:25:17
+  phone_number: ""
+  id: "2"
+  first_name: teddy
+  password: ""
+  login: ""
+  last_name: ""
+  created_at: 2007-03-20 14:50:59
+  email_address: ""
+  middle_name: ""
+<% 
+names = %w[george bob greg polac ulysis joseph oliver booger treehugger catherine laura tim scott richard lance edwin dhh med jim matz sarah jeff randall james jeremy rob travis kelly joe david pikachoo radioactiveman truman brigham spencer ezra thomas gordon howard]
+index = 3
+names.each do |name|
+%>
+users_<%= name %>: 
+  id: <%= index %>
+  first_name: <%= name.capitalize %>
+  last_name: test
+  login: <%= name %>
+  password: test
+  phone_number: 555-<%= index.to_s.rjust(4, '0')%>
+  email_address: <%= name %>@test.com
+  middle_name: ""
+  updated_at: 2007-03-21 11:28:28
+  created_at: 2007-03-21 11:28:28
+<% 
+index += 1
+end 
+%>

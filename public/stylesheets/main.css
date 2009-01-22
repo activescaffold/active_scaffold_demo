@@ -1,0 +1,287 @@
+body {
+color: #333;
+font-family: arial, sans-serif;
+font-size: 10px;
+line-height: 180%;
+background: #fff url(../images/background.png) repeat-x;
+}
+
+a {
+color: #CA001D;
+text-decoration: none;
+}
+
+a:visited {
+color: #8C0017;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+strong {
+font-weight: bold;
+background-color: #ffc;
+}
+
+.clear-fix {
+clear: both;
+}
+
+/* Layout
+   =========================== */
+
+#wrap {
+width: 760px;
+margin: 0 auto;
+position: relative;
+}
+
+#content {
+clear: both;
+}
+
+/* Header
+   =========================== */
+
+#header {
+padding: 1em 0 0 0;
+position: relative;
+}
+
+#header h1 {
+text-indent: -4000px;
+background: url(../images/banner_t.png) 0 0 no-repeat;
+height: 32px;
+}
+
+#header h2.description {
+margin-left: 40px;
+margin-top: -3px;
+line-height: 100%;
+color: #666;
+}
+
+#header #latest-release {
+position: absolute;
+right: 5px;
+bottom: 5px;
+color: #999;
+font: normal 140% arial;
+text-transform: lowercase;
+
+}
+
+#header #latest-release small {
+font-size: 80%;
+}
+
+#header #latest-release a {
+font: bold 100% verdana;
+text-transform: uppercase;
+}
+
+/* Navigation
+   =========================== */
+
+#nav {
+margin: 10px 0 5px 0;
+background: url(../images/nav-border.gif) bottom left repeat-x;
+}
+
+#nav li {
+float: left;
+margin-right: 0;
+margin-left:5px;
+}
+
+#nav li a:visited {
+color: #CA001D;
+}
+
+#nav li a {
+padding: 5px 8px;
+display: block;
+font: bold 120% arial;
+background-color: #eee;
+border: solid 1px #ddd;
+border-bottom: solid 1px #ccc;
+}
+
+#nav li a:hover {
+text-decoration: none;
+background-color: #ffa;
+}
+
+#nav li a.selected {
+border: solid 1px #ccc;
+border-bottom: solid 1px #fff;
+text-decoration: none;
+color: #666;
+cursor: default;
+background-color: #fff;
+}
+
+#nav li a.selected:hover {
+background-color: #fff;
+}
+
+/* SubNav :: Jump
+   =========================== */
+
+#sub-nav {
+position: relative;
+padding: 5px 0;
+}
+
+#jump {
+font-size: 11px;
+}
+
+#jump label {
+color: #999;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+/* Download
+   =========================== */
+
+a#download {
+font: bold 140% arial;
+background: url(../images/disk.png) 0 50% no-repeat;
+padding: 2px 2px 2px 20px;
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+/* Menu
+   =========================== */
+
+ul#menu {
+margin-top: 10px;
+}
+
+ul#menu li {
+display: inline;
+font-size: 120%;
+}
+
+ul#menu li.label {
+color: #666;
+padding: 2px 6px 2px 0;
+}
+
+ul#menu li a {
+padding: 2px 6px;
+color: #06c;
+text-decoration: none;
+}
+
+ul#menu li a:hover {
+background-color: #ff8;
+}
+
+/* Content :: Headers
+   =========================== */
+
+#content h2 {
+font: bold 180% arial;
+margin-bottom: 10px;
+}
+
+#content h2,
+#content h2 a {
+color: #ccad00;
+}
+
+#content h3 {
+font: bold 140% arial;
+margin: 15px 0 10px 0;
+color: #ccad00;
+}
+
+#content h3 small {
+font: bold 60% arial;
+text-transform: uppercase;
+}
+
+#content h4 {
+color: #888;
+font: bold 100% arial;
+text-transform: uppercase;
+margin: 10px 0;
+}
+
+#content h5 {
+color: #f00;
+}
+
+/* Code
+   =========================== */
+
+code{
+font-size: 120%;
+line-height: 140%;
+background-color: #ddd;
+}
+
+pre{
+background: #333;
+color: #fffed8;
+border: 1px inset #aaa;
+overflow:auto;
+padding: 3px 5px;
+margin: 5px 0;
+}
+
+pre code {
+background-color: transparent;
+}
+
+/* Code :: Ruby
+   =========================== */
+
+span.comment{
+  font-style: italic;
+  color: #98C1DC;
+}
+span.keywords{
+  font-weight: bold;
+  color:#cda869;
+}
+span.string{
+  color:#8f9d6a !important;
+}
+span.brackets{
+  color:#efe900;
+}
+span.symbol{
+  color:#CF6A4C;
+}
+span.instance{
+  color:#7587a6;
+}
+span.constants{
+  color:#cf6a4c;
+}
+span.method{
+  color:#f8f097;
+}
+
+/* SecuredRecordsController
+   =========================== */
+
+a#login {
+  font-size: 150%;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+span.restricted {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

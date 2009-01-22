@@ -1,0 +1,10 @@
+setup :fixtures => :all
+  open "/users"
+  click "link=Id"
+  wait_for_element_present "css=#users-id-column.sorted"
+  click "link=Next"
+  wait_for_element_present "//tr[@id='users-list-16-row']"
+  verify_element_present "link=Previous"
+  click "link=Next"
+  wait_for_element_present "//tr[@id='users-list-31-row']"
+  verify_element_not_present "link=Next"

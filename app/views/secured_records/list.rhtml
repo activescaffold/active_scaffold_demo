@@ -1,0 +1,11 @@
+<% unless logged_in? %>
+  <%= link_to_remote 'Login as Demo User',
+                     {:url => {:controller => 'account', :action => 'login', :login => 'demo_user', :password => 'letmein'},
+                      :method => :post},
+                     {:id => 'login'} -%>
+<% else %>
+  <%= link_to_remote 'Logout',
+                     {:url => {:controller => 'account', :action => 'logout'}},
+                     {:id => 'login'} -%>
+<% end %>
+<%= render :super %>
