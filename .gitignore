@@ -1,10 +1,13 @@
 .DS_Store
-config/database.yml
 /db/development.sqlite3
 /db/schema.rb
 /public/images/active_scaffold
 /public/javascripts/active_scaffold
 /public/stylesheets/active_scaffold
+<<<<<<< HEAD:.gitignore
 /public/user
 :memory:
 log/mongrel.pid
+=======
+/public/user
+>>>>>>> d3ab872... working on gitignore:.gitignore
