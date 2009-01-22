@@ -1,0 +1,6 @@
+[submodule "vendor/rails"]
+	path = vendor/rails
+	url = git://github.com/rails/rails.git
+[submodule "vendor/gems/webrat"]
+	path = vendor/gems/webrat
+	url = git://github.com/brynary/webrat.git
