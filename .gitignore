@@ -6,3 +6,5 @@ config/database.yml
 /public/javascripts/active_scaffold
 /public/stylesheets/active_scaffold
 /public/user
+:memory:
+log/mongrel.pid

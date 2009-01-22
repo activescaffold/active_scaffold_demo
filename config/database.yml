@@ -1,11 +1,20 @@
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: mysql
+  database: active_scaffold_demo_development
+  host: localhost
+  username: root
+  password:
 
 test:
-  adapter: sqlite3
-  database: ":memory:"
+  adapter: mysql
+  database: active_scaffold_demo_test
+  host: localhost
+  username: root
+  password:
 
 production:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: mysql
+  database: active_scaffold_demo
+  host: localhost
+  username: root
+  password:
