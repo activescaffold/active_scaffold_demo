@@ -1,10 +1,18 @@
-require(File.join(File.dirname(__FILE__), 'config', 'boot'))
-
 require 'rake'
 require 'rake/testtask'
+require 'rake/packagetask'
 require 'rake/rdoctask'
+require 'find'
 
-require 'tasks/rails'
+desc 'Default: run unit tests.'
+task :default => :test
+
+desc 'Test ActiveScaffold.'
+Rake::TestTask.new(:test) do |t|
+  t.libs << 'lib'
+  t.pattern = 'test/**/*_test.rb'
+  t.verbose = true
+end
 
 desc 'Generate documentation for ActiveScaffold.'
 Rake::RDocTask.new(:rdoc) do |rdoc|
