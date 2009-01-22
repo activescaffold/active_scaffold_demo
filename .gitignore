@@ -4,13 +4,6 @@
 /public/images/active_scaffold
 /public/javascripts/active_scaffold
 /public/stylesheets/active_scaffold
-<<<<<<< HEAD:.gitignore
-/public/user
-<<<<<<< HEAD:.gitignore
 :memory:
 log/mongrel.pid
-=======
 /public/user
->>>>>>> d3ab872... working on gitignore:.gitignore
-=======
->>>>>>> 702c8ca... working on updating new version:.gitignore
