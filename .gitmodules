@@ -1,18 +1,18 @@
 [submodule "vendor/rails"]
 	path = vendor/rails
 	url = git://github.com/rails/rails.git
-[submodule "vendor/gems/webrat"]
-	path = vendor/gems/webrat
-	url = git://github.com/brynary/webrat.git
 [submodule "vendor/plugins/file_column"]
 	path = vendor/plugins/file_column
 	url = git://github.com/activescaffold/file_column.git
 [submodule "vendor/plugins/active_scaffold"]
 	path = vendor/plugins/active_scaffold
 	url = git://github.com/activescaffold/active_scaffold.git
-[submodule "vendor/gems/shoulda"]
-	path = vendor/gems/shoulda
-	url = git://github.com/thoughtbot/shoulda.git
 [submodule "vendor/plugins/factory_girl"]
 	path = vendor/plugins/factory_girl
 	url = git://github.com/thoughtbot/factory_girl.git
+[submodule "vendor/plugins/shoulda"]
+	path = vendor/plugins/shoulda
+	url = git://github.com/thoughtbot/shoulda.git
+[submodule "vendor/plugins/webrat"]
+	path = vendor/plugins/webrat
+	url = git://github.com/brynary/webrat.git
