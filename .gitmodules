@@ -10,3 +10,6 @@
 [submodule "vendor/plugins/active_scaffold"]
 	path = vendor/plugins/active_scaffold
 	url = git://github.com/activescaffold/active_scaffold.git
+[submodule "vendor/gems/shoulda"]
+	path = vendor/gems/shoulda
+	url = git://github.com/thoughtbot/shoulda.git
