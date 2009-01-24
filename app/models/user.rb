@@ -22,13 +22,13 @@ class User < ActiveRecord::Base
   has_many :addresses, :as => :addressable
 
   validates_presence_of :first_name, :last_name
-  file_column :photo#, :magick => { 
+#  file_column :photo#, :magick => { 
   #   :versions => {
   #     :thumb => {:size => "40x40"} 
   #   } 
   # }
   
-  validates_filesize_of :photo, :in => 0..25.kilobytes
+#  validates_filesize_of :photo, :in => 0..25.kilobytes
   
   def name
     last_name.nil? ? first_name : first_name + " " + last_name

@@ -7,3 +7,5 @@
 :memory:
 log/mongrel.pid
 /public/user
+config/database.yml
+memory

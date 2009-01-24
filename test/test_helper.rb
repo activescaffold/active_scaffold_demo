@@ -1,13 +1,27 @@
-require 'test/unit'
+require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
+require 'test_help'
+require 'shoulda'
+require 'webrat'
 
-require File.expand_path(File.join(File.dirname(__FILE__), '../../../../config/environment.rb'))
-
-for file in %w[model_stub const_mocker]
-  require File.join(File.dirname(__FILE__), file)
+Webrat.configure do |config|
+  config.mode = ENV['WEBRAT_INTEGRATION_MODE'].to_sym
 end
 
-ModelStub.connection.instance_eval do
-  def quote_column_name(name)
-    name
+ActionController::Base.class_eval do
+  def perform_action
+    perform_action_without_rescue
   end
 end
+Dispatcher.class_eval do
+  def self.failsafe_response(output, status, exception = nil)
+    raise exception
+  end
+end
+class Test::Unit::TestCase
+  self.use_transactional_fixtures = false
+  self.use_instantiated_fixtures  = false
+  fixtures :all
+end
+require 'factory_girl'
+require File.expand_path(File.dirname(__FILE__) + '/factories')
+
