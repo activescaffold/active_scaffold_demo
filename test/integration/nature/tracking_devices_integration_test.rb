@@ -7,4 +7,19 @@ class Nature::TrackingDevicesIntegrationTest < ActionController::IntegrationTest
     end
   end
   
+  # create cancel
+  # create X
+  # create empty
+  # create create
+  # sort name
+  # sort taggable
+  # edit
+  #   invalid
+  #   cancel
+  #   X
+  # delete
+  # show
+  # search
+  # paginate
+  
 end
