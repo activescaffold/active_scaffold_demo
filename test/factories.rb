@@ -1,5 +1,5 @@
 Factory.sequence :name do |n|
-  "name #{n}"
+  "name#{n}"
 end
 
 Factory.define :tracking_device do |t|
