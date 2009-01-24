@@ -13,3 +13,6 @@
 [submodule "vendor/gems/shoulda"]
 	path = vendor/gems/shoulda
 	url = git://github.com/thoughtbot/shoulda.git
+[submodule "vendor/plugins/factory_girl"]
+	path = vendor/plugins/factory_girl
+	url = git://github.com/thoughtbot/factory_girl.git
