@@ -27,7 +27,6 @@ class ApplicationController < ActionController::Base
       @menu.entries << ['users', url_for(:controller => 'users')]
       @menu.entries << ['roles', url_for(:controller => 'roles')]
       @menu.entries << ['permissions', url_for(:controller => 'permissions')]
-
     end
   end
 end
