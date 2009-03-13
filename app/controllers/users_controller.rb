@@ -11,7 +11,7 @@ class UsersController < DemoController
     config.update.columns.exclude :id, :name
     config.list.columns.exclude :first_name, :middle_name, :last_name, :password, :phone_number
     config.subform.columns = [:first_name, :last_name, :login, :password]
-
+    config.columns[:birth_day].options = {:start_year => 0.years.from_now.year, :end_year => 3.years.from_now.year}
     config.list.sorting = {:login => 'ASC'}
 
     config.nested.add_link "Names", [:aliases]
