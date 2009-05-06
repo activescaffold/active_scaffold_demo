@@ -2,6 +2,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.namespace :nature do |nature|
     nature.resources :tracking_devices, :active_scaffold => true
+    nature.resources :bears, :active_scaffold => true
   end
 
   map.connect '', :controller => "demo"
