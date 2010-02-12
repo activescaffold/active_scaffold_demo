@@ -3,7 +3,6 @@ development:
   database: active_scaffold_demo_development
   host: 127.0.0.1
   username: root
-  password: root
 
 test:
   adapter: mysql
